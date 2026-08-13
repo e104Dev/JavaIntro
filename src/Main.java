@@ -1,13 +1,28 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-  //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-  // to see how IntelliJ IDEA suggests fixing it.
-  IO.println(String.format("Hello and welcome!"));
+import java.util.Scanner;
 
-  for (int i = 1; i <= 5; i++) {
-    //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-    // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-    IO.println("i = " + i);
-  }
+public class Main {
+
+    public static void main(String[] args) {
+        //TODO: Saída de dados
+        System.out.println("Digite o seu nome...");
+
+        //TODO: Entrada de dados
+        // 1. Criar um objeto Scanner
+        Scanner entrada = new Scanner(System.in);
+        // 2. Realizar a leitura de dados
+        String nome = entrada.nextLine();
+
+        System.out.println("Olá " + nome +", bem-vindo ao Java!");
+        System.out.printf("Olá %s, bem-vindo ao Java!\n", nome);
+
+        //TODO: Tipos de dados
+
+        //TODO: Operadores e Expressões
+
+        //TODO: Estrutura de Controle
+
+        //TODO: Estrutura de repetição
+
+        //TODO: Métodos com retorno e sem retorno
+    }
 }
