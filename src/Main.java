@@ -4,21 +4,22 @@ public class Main {
 
     public static void main(String[] args) {
         //TODO: Saída de dados
-//        System.out.println("Digite o seu nome...");
+        System.out.println("Digite o seu nome...");
 
         //TODO: Entrada de dados
         // 1. Criar um objeto Scanner
         Scanner entrada = new Scanner(System.in);
         // 2. Realizar a leitura de dados
-//        String nome = entrada.nextLine();
+        String nome = entrada.nextLine();
 
-//        System.out.println("Olá " + nome +", bem-vindo ao Java!");
-//        System.out.printf("Olá %s, bem-vindo ao Java!\n", nome);
+        System.out.println("Olá " + nome + ", bem-vindo ao Java!");
+        System.out.printf("Olá %s, bem-vindo ao Java!\n", nome);
 
         //TODO: Tipos de dados
         // Tipos primitivos: byte, short, int, long, float, double, char, boolean
         // Tipos não-primitivos: Byte, Short, Integer, Long, Float, Double, Boolean, String
 
+        System.out.println("\n\nTipo de Dados: \n");
         System.out.printf("Byte - byte: %d - min: %d - max: %d\n",
                 Byte.BYTES, Byte.MIN_VALUE, Byte.MAX_VALUE);
         System.out.printf("Short - byte: %d - min: %d - max: %d\n",
@@ -42,33 +43,39 @@ public class Main {
         // Lógicos: & | ^
         // Atribuição: =
         // Incremento: ++ -- += -= *= /=
+
+        System.out.println("\nExemplo Incrementos");
         int a = 10;
-        System.out.printf("a++: %d\n", ++a);
-        System.out.println(a);
-//        a++;
-//        System.out.printf("a++: %d\n", a);
-//        a--;
-//        System.out.printf("a--: %d\n", a);
-//        a+=10;
-//        System.out.printf("a+=10: %d\n", a);
-//        a-=3;
-//        System.out.printf("a-=3: %d\n", a);
-//        a*=2;
-//        System.out.printf("a*=2: %d\n", a);
-//        a%=3;
-//        System.out.printf("a%%=3: %d\n", a);
+        a++;
+        System.out.printf("a++: %d\n", a);
+        a--;
+        System.out.printf("a--: %d\n", a);
+        a += 10;
+        System.out.printf("a+=10: %d\n", a);
+        a -= 3;
+        System.out.printf("a-=3: %d\n", a);
+        a *= 2;
+        System.out.printf("a*=2: %d\n", a);
+        a %= 3;
+        System.out.printf("a%%=3: %d\n", a);
+
+        // Exemplo expressoes
         // x = 10 x [ 2 / (3 - 1)] + {10 + (2 * 6)}
         // x = 10 * (2/(3-1)) + (10 + (2 * 6))
 
         //TODO: Estrutura de Controle
         // Estrutura Simples
-        if (a < 7) System.out.println(a);
 
+        System.out.println("Estruturas de Decisão\n\nDigite uma nota:");
+        float nota = entrada.nextFloat();
+        if (nota < 5.0) System.out.println("Reprovado!");
 
         // Estrutura composta
-        if (a < 7) System.out.println(a);
-        else System.out.println(a);
-        // Outra Instrução
+        if (nota < 7.0) {
+            System.out.println("Recuperação!");
+        } else {
+            System.out.println("Aprovado!");
+        }
 
         //TODO: Estrutura de repetição
         // while, do while, for, for in, lambas/streams
