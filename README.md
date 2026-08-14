@@ -4,7 +4,7 @@
 
 1. Rescreva as seguintes equações aritméticas, para a maneira com que os computadores as interpretem e executem. Detalhe, para utilizar a exponenciação, deve-se utilizar os métodos estáticos da Classe Math(Pesquise sobre os métodos da Classe Math):
 * a. 35-{5+[15:(3+2)-(18+2):10]+3.(5+2)+3} Resultado=5
-* b. {5+2.[15-(24:8)+3.(23-7)]-33} Resultado=10
+* b. {5+2.[15-(24:8)+3.(23-7)]-33} Resultado=92
 * c. (1)2:{3+2.[5–2:2]+5(3-12)}0 Resultado=1  
 
 # Decisão
