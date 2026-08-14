@@ -16,7 +16,9 @@
     * Média entre 3.1 e 4: “D”;
     * Média entre 0 e 3: “E”;
     * Status: Se a média inferior a “C" deverá ser acrescido a mensagem “Aluno em Recuperação”;
-    * Status: Se a frequência inferior a 60%: deverá ser acrescido a mensagem “Aluno em Retido por faltas”;  
+    * Status: Se a frequência inferior a 60%: deverá ser acrescido a mensagem “Aluno em Retido por faltas”;
+  
+## Tabela IR
       
    BASE DE CÁLCULO MENSAL |	ALÍQUOTA |	PARCELA A DEDUZIR DO IR
       -- | -- | -- 
