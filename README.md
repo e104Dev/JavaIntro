@@ -20,13 +20,14 @@
   
 ## Tabela IR
       
-   BASE DE CÁLCULO MENSAL |	ALÍQUOTA |	PARCELA A DEDUZIR DO IR
-      -- | -- | -- 
-      Até 1.903,98 |	Isento	| —
-      De 1.903,99 até 2.826,65	| 7,5%	| R$ 142,8
-      De 2.826,66 até 3.751,05 |	15%	| R$ 354,8
-      De 3.751,06 até 4.664,68	| 22,5%	| R$ 636,13
-      Acima de 4.664,68	| 27,5%	| R$ 869,36
+| BASE DE CÁLCULO MENSAL   | 	ALÍQUOTA | 	PARCELA A DEDUZIR DO IR |
+|--------------------------|----------|-------------------------|
+| Até 1.903,98             | 	Isento	   | —                       |
+| De 1.903,99 até 2.826,65	 | 7,5%	     | R$ 142,8                |
+| De 2.826,66 até 3.751,05 | 	15%	      | R$ 354,8                |
+| De 3.751,06 até 4.664,68	 | 22,5%	    | R$ 636,13               |
+| Acima de 4.664,68	        | 27,5%	    | R$ 869,36               |
+
 3. Baseado na tabela de Cálculo de Imposto de Renda, crie um programa que receba o valor do salário bruto do usuário e informe a alíquota aplicada e o valor da parcela a deduzir do Imposto de Renda para o valor inserido.
 
 # Repetição
